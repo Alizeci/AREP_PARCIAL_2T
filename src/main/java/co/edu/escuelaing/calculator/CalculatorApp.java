@@ -1,13 +1,14 @@
 package co.edu.escuelaing.calculator;
 
 import static spark.Spark.port;
-import static spark.Spark.get;
+import co.edu.escuelaing.calculator.controller.CalculatorController;
+import co.edu.escuelaing.calculator.service.CalculatorService;
 
 public class CalculatorApp {
 	public static void main(String[] args) {
 		port(getPort());
 
-		get("hello", (req, res) -> "Hello World!");
+		new CalculatorController(new CalculatorService());
 	}
 
 	private static int getPort() {
