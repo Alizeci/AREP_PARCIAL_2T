@@ -15,8 +15,6 @@ public class CalculatorService {
 		resultObj.put("input", value);
 		resultObj.put("output", result);
 
-		System.out.println("acos function executed successfully!");
-		System.out.println(resultObj);
 		return resultObj;
 	}
 
@@ -29,8 +27,6 @@ public class CalculatorService {
 		resultObj.put("input", value);
 		resultObj.put("output", result);
 
-		System.out.println("sqrt function executed successfully!");
-		System.out.println(resultObj);
 		return resultObj;
 	}
 
