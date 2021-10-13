@@ -1,4 +1,4 @@
-# AREP_PARCIAL_2T
+# PARCIAL 2T
 
 Se diseña, construye y despliega dos servicios usando el framework de **Spark** y un microcontenedor **Docker** desplegado en una instancia EC2 de **AWS**, capaces de resolver las funciones *arcoseno* y *raiz cuadrada*.
 
